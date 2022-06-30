@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.main{
+    background-image: url(./image/main_bcg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    margin: 25px 0;
+}
+.header__part1{
+    display: flex;
+    align-items: center;
+}
+.header__part1 img{
+    cursor: pointer;
+}
+.header__part1 ul{
+    display: flex;
+    margin: 0;
+}
+.header__part1 li{
+    margin: 0 0 0 15px;
+}
+.header__part1 a{
+    color: black;
+    font-size: 12px;
+}
+.header_part2{
+    display: flex;
+    align-items: center;
+}
+.header_part2 img{
+    cursor: pointer;
+    height: 32px;
+}
+.header_part2 ul{
+    display: flex;
+    margin: 0;
+}
+.header_part2 li{
+    margin: 0 15px 0 0;
+    font-size: 12px;
+}
+.header_part2 a{
+    color: black;
+}
+.header a:hover{
+    color: rgb(155, 155, 155);
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+.main_{
+    text-align: center;
+}
+.main_ h2{
+    color: #26272d;
+    font-size: 30px;
+    font-family: inherit;
+    font-weight: 600;
+    margin-top: 44px;
+}
+.main__p1{
+    color: #8c8f94;
+    font-size: 11px;
+    margin: 25px 0 0 0;
+}
+.main__p2{
+    color: #8c8f94;
+    font-size: 11px;
+    margin: 0;
+}
+.main__p3{
+    color: #8c8f94;
+    font-size: 11px;
+    margin: 0 0 40px 0;
+}
+.main__play{
+    margin: 0 0 40px 0;
+    width: 115px;
+    cursor: pointer;
+}
+.main__iphone{
+    width: 200px;
+}
+.section1{
+    display: flex;
+    justify-content: space-around;
+}
+.sec1__div{
+    margin-bottom: 120px;
+}
+.sec1__div img{
+    width: 30px;
+    margin: 65px 0 0 0;
+}
+.sec1__div h6{
+    margin: 23px 0 15px 0;
+    font-family: emoji;
+    color: #464646;
+    font-size: 15px;
+}
+.sec1__p1{
+    margin: 0 0 0 0;
+    font-size: 12px;
+    color: #8d8989;
+}
+.sec1__p2{
+    margin: 0 0 15px 0;
+    color: #8d8989;
+    font-size: 12px;
+}
+.sec1__p3{
+    margin: 0 0 0 0;
+    color: #8d8989;
+    font-size: 12px;
+}
+.sec1__p4{
+    margin: 0 0 0 0;
+    font-size: 12px;
+    color: #8d8989;
+}
+.sec1__p5{
+    margin: 0 0 0 0;
+    font-size: 12px;
+    color: #8d8989;
+}
+.section2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.sec2__div1 img{
+    width: 60%;
+}
+.sec2__h31{
+    margin: 0 0 0 0;
+    font-weight: 600;
+}
+.sec2__h32{
+    margin: 0 0 0 0;
+    font-weight: 600;
+    margin: 0 0 40px 0;
+}
+.sec1__p6{
+    margin: 0 0 30px 0;
+    font-size: 12px;
+    color: #8d8989;
+}
+.sec2__input1{
+    color: white;
+    background-color: #267df4;
+    width: 125px;
+    height: 25px;
+    border-radius: 37px;
+    border: none;
+    font-size: 11px;
+    margin-right: 25px;
+}
+.sec2__input2{
+    color: rgb(49, 44, 44);
+    border-radius: 29px;
+    width: 90px;
+    height: 26px;
+    font-size: 12px;
+    border: 1px solid #00000033;
+    background-color: inherit;
+}
+.sec2__input1:hover{
+    transition: all 0.4s ease;
+    background-color: #0065ef;
+}
+.sec2__input2:hover{
+    transition: all 0.4s ease;
+    border: 1px solid #0000009c;
+}
+.section3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.section3 img{
+    width: 100%;
+}
+.section4{
+    background-color: #f5f5f8;
+    text-align: center;
+}
+.section4 h2{
+    margin: 55px 0 15px 0;
+    color: #26272d;
+    font-size: 21px;
+    font-family: inherit;
+}
+.line{
+    background-color: #267df47a;
+    height: 2px;
+    width: 25px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.section4 p{
+    color: #8c8f94;
+    font-size: 8px;
+    margin-bottom: 25px;
+}
+.section4 img{
+    width: 100%;
+    margin-bottom: 100px;
+}
+.footer__logo{
+    margin: 15px 0 30px 0;
+    width: 120px;
+    cursor: pointer;
+}
+.footer__p1{
+    margin: 0 0 0 0;
+    color: #837474;
+    font-size: 13px;
+}
+.footer__p2{
+    margin: 0 0 0 0;
+    font-size: 13px;
+    color: #837474;
+}
+.footer__p3{
+    margin: 0 0 25px 0;
+    font-size: 13px;
+    color: #837474;
+}
+.footer__apple{
+    margin: 0 0 15px 0;
+    width: 120px;
+    cursor: pointer;
+}
+.footer__social{
+    margin: 0 0 60px 0;
+    width: 160px;
+    cursor: pointer;
+}
+.footer__source{
+    color: #8c8f94;
+}
+.footer__source a{
+    color: #3b55e6;
+}
+.footer__source a:hover{
+    transition: all 0.5s ease;
+}
